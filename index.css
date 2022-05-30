@@ -1,0 +1,93 @@
+body {
+  background: #e3e3e3;
+  color: #233142;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 17px;
+}
+h1, h2, h3 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+h1 {
+  color: #575F7D;
+  font-size: 32px;
+  font-weight: 900;
+}
+h2 {
+  color: #f95959;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+}
+
+#intro {
+  padding-bottom: 30px;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+.card-white {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.btn-orange {
+  background-color: #f95959;
+  color: white;
+  padding: 15px 40px;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+.btn-orange:hover {
+  background-color: white;
+  color: #f95959;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 40px;
+}
+.list-inline i {
+  font-size: 50px;
+  color: rgb(230, 230, 230);
+}
+.list-inline i:hover {
+  color: #f95959;
+}
+
+
+/*Responsive desgin*/
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
